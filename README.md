@@ -5,4 +5,6 @@ Figure positioning using z-index
 * html
 * css
 
-### Created by [Pavel Pashkovich]()
+### Try it [here](https://pavelpashkovich.github.io/figures-z/)
+
+### Created by [Pavel Pashkovich](https://github.com/PavelPashkovich)
