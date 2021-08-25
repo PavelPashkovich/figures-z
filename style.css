@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.figure {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 700px;
+  height: 700px;
+  background-color: #ffffff;
+}
+
+.figure__circle-top-left {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+
+.figure__circle-top-left:hover {
+  background-color: #00ff2a;
+  z-index: 2;
+}
+
+.figure__circle-top-right {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+
+.figure__circle-top-right:hover {
+  background-color: #00bcdd;
+  z-index: 2;
+}
+
+.figure__circle-bottom-right {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+
+.figure__circle-bottom-right:hover {
+  background-color: #d600dd;
+  z-index: 2;
+}
+
+.figure__circle-bottom-left {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+
+.figure__circle-bottom-left:hover {
+  background-color: #e5ff00;
+  z-index: 2;
+}
+
+.figure__square-big {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: #1962ff;
+}
+
+.figure__square-big:hover {
+  background-color: #00eeff;
+  z-index: 1;
+}
+
+.figure__square-small {
+  position: absolute;
+  left: 37.5%;
+  top: 37.5%;
+  width: 25%;
+  height: 25%;
+  background-color: #ffc400;
+  border-radius: 10%;
+}
